@@ -1,0 +1,11 @@
+service : {
+  completePurchase: (principal, principal, principal) -> (text);
+  getListedntfs: () -> (vec principal) query;
+  getOpendCanisterId: () -> (principal) query;
+  getOriginalOwner: (principal) -> (principal) query;
+  getOwnedntfs: (principal) -> (vec principal) query;
+  getsellPrice: (principal) -> (nat) query;
+  isListed: (principal) -> (bool) query;
+  listItem: (principal, nat) -> (text);
+  mint: (vec nat8, text) -> (principal);
+}
